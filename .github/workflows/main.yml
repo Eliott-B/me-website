@@ -1,0 +1,34 @@
+name: Deploy to GitHub Pages
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v2
+
+    - name: Set up .NET
+      uses: actions/setup-dotnet@v2
+      with:
+        dotnet-version: '8.0.0'
+
+    - name: Install dependencies
+      run: dotnet restore
+
+    - name: Publish Blazor app
+      run: dotnet publish -c Release -o ./publish
+
+    - name: Deploy to GitHub Pages
+      uses: peaceiris/actions-gh-pages@v3
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_dir: ./publish
+        publish_branch: gh-pages
+        user_name: 'github-actions'
+        user_email: 'github-actions@users.noreply.github.com'
