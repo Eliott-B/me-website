@@ -1,0 +1,31 @@
+/* /Components/Footer.razor.rz.scp.css */
+footer[b-w092t05iis], footer > p[b-w092t05iis], footer > a[b-w092t05iis] {
+    text-align: center;
+    padding: 1px;
+    margin: 1px;
+}
+
+footer[b-w092t05iis] {
+    margin-top: 2em;
+    /* position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%; */
+    padding-bottom: 0.5em;
+}
+/* /Components/Header.razor.rz.scp.css */
+header[b-flixbfxj4t] {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header > img[b-flixbfxj4t] {
+    height: 7em;
+}
+
+header > h1[b-flixbfxj4t] {
+    font-size: 2.5em;
+    margin-left: 1em;
+}
+/* /Pages/Home.razor.rz.scp.css */
