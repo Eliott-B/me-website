@@ -1,54 +1,56 @@
 @using Portfolio.Shared
 
-<header>
-    <img src="assets/logo.png" alt="Logo" />
-    <h1>Eliott Barker</h1>
-</header>
+<div class="top">
+    <header>
+        <img src="assets/logo.png" alt="Logo" />
+        <h1>Eliott Barker</h1>
+    </header>
 
-<nav>
-    <ul>
-        @if (CurrentPage == Tabs.Home)
-        {
-            <li class="active"><a href="/">Accueil</a></li>
-        }
-        else
-        {
-            <li><a href="/">Accueil</a></li>
-        }
-        @if (CurrentPage == Tabs.Projects)
-        {
-            <li class="active"><a href="/projects">Projets</a></li>
-        }
-        else
-        {
-            <li><a href="/projects">Projets</a></li>
-        }
-        @if (CurrentPage == Tabs.Studies)
-        {
-            <li class="active"><a href="/studies">Études</a></li>
-        }
-        else
-        {
-            <li><a href="/studies">Études</a></li>
-        }
-        @if (CurrentPage == Tabs.Experiences)
-        {
-            <li class="active"><a href="/experiences">Expériences</a></li>
-        }
-        else
-        {
-            <li><a href="/experiences">Expériences</a></li>
-        }
-        @if (CurrentPage == Tabs.Contact)
-        {
-            <li class="active"><a href="/contact">Contact</a></li>
-        }
-        else
-        {
-            <li><a href="/contact">Contact</a></li>
-        }
-    </ul>
-</nav>
+    <nav>
+        <ul>
+            @if (CurrentPage == Tabs.Home)
+            {
+                <li class="active"><a href="/">Accueil</a></li>
+            }
+            else
+            {
+                <li><a href="/">Accueil</a></li>
+            }
+            @if (CurrentPage == Tabs.Projects)
+            {
+                <li class="active"><a href="/projects">Projets</a></li>
+            }
+            else
+            {
+                <li><a href="/projects">Projets</a></li>
+            }
+            @if (CurrentPage == Tabs.Studies)
+            {
+                <li class="active"><a href="/studies">Études</a></li>
+            }
+            else
+            {
+                <li><a href="/studies">Études</a></li>
+            }
+            @if (CurrentPage == Tabs.Experiences)
+            {
+                <li class="active"><a href="/experiences">Expériences</a></li>
+            }
+            else
+            {
+                <li><a href="/experiences">Expériences</a></li>
+            }
+            @if (CurrentPage == Tabs.Contact)
+            {
+                <li class="active"><a href="/contact">Contact</a></li>
+            }
+            else
+            {
+                <li><a href="/contact">Contact</a></li>
+            }
+        </ul>
+    </nav>
+</div>
 
 @code {
     [Parameter]
