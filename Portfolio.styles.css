@@ -14,6 +14,12 @@ footer[b-w092t05iis] {
     padding-bottom: 0.5em;
 }
 /* /Components/Header.razor.rz.scp.css */
+.top[b-flixbfxj4t] {
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center; */
+}
+
 header[b-flixbfxj4t] {
     display: flex;
     justify-content: center;
@@ -28,4 +34,27 @@ header > h1[b-flixbfxj4t] {
     font-size: 2.5em;
     margin-left: 1em;
 }
+
+nav[b-flixbfxj4t] {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5em;
+    margin-left: -2em;
+}
+
+nav ul li[b-flixbfxj4t] {
+    display: inline-block;
+    list-style-type: none;
+}
+
+nav ul li[b-flixbfxj4t] {
+    margin: 0 1em;
+}
 /* /Pages/Home.razor.rz.scp.css */
+.home[b-ois3x2fd0s] {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
