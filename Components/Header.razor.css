@@ -15,8 +15,10 @@ header > img {
 }
 
 header > h1 {
-    font-size: 2.5em;
+    font-size: 2.6em;
     margin-left: 1em;
+    font-family: header;
+    font-weight: bold;
 }
 
 nav {

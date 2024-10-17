@@ -2,6 +2,8 @@ footer, footer > p, footer > a {
     text-align: center;
     padding: 1px;
     margin: 1px;
+    font-size: 0.95em;
+    font-style: italic;
 }
 
 footer {

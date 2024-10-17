@@ -1,0 +1,19 @@
+@font-face {
+    font-family: header;
+    src: url("fonts/Aadhunik.ttf") format('truetype');
+}
+
+@font-face {
+    font-family: body;
+    src: url("fonts/Exo2-RegularCondensed.otf") format('truetype');
+}
+
+@font-face {
+    font-family: boldBody;
+    src: url("fonts/Exo2-BoldCondensed.otf") format('truetype');
+}
+
+body {
+    font-family: body;
+    font-size: 1.1em;
+}
