@@ -3,6 +3,8 @@ footer[b-w092t05iis], footer > p[b-w092t05iis], footer > a[b-w092t05iis] {
     text-align: center;
     padding: 1px;
     margin: 1px;
+    font-size: 0.95em;
+    font-style: italic;
 }
 
 footer[b-w092t05iis] {
@@ -31,8 +33,10 @@ header > img[b-flixbfxj4t] {
 }
 
 header > h1[b-flixbfxj4t] {
-    font-size: 2.5em;
+    font-size: 2.6em;
     margin-left: 1em;
+    font-family: header;
+    font-weight: bold;
 }
 
 nav[b-flixbfxj4t] {
@@ -57,4 +61,10 @@ nav ul li[b-flixbfxj4t] {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    flex-wrap: wrap;
+}
+
+.home > p[b-ois3x2fd0s] {
+    text-align: center;
+    width: 75%;
 }
