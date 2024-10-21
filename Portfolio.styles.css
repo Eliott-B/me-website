@@ -55,8 +55,9 @@ nav ul li[b-flixbfxj4t] {
 nav ul li[b-flixbfxj4t] {
     margin: 0 1em;
 }
-/* /Pages/Home.razor.rz.scp.css */
-.home[b-ois3x2fd0s] {
+/* /Pages/Contact/Contact.razor.rz.scp.css */
+/* /Pages/Home/Home.razor.rz.scp.css */
+.home[b-250ve3k30z] {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -64,12 +65,12 @@ nav ul li[b-flixbfxj4t] {
     flex-wrap: wrap;
 }
 
-.home > p[b-ois3x2fd0s] {
+.home > p[b-250ve3k30z] {
     text-align: center;
     width: 75%;
 }
 
-.home > ul[b-ois3x2fd0s] {
+.home > ul[b-250ve3k30z] {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -79,7 +80,7 @@ nav ul li[b-flixbfxj4t] {
     margin: 0;
 }
 
-.home > ul > li[b-ois3x2fd0s] {
+.home > ul > li[b-250ve3k30z] {
     margin: 0.5em;
 }
 
@@ -89,7 +90,7 @@ github button : Mangesh636 (https://uiverse.io/profile/Mangesh636)
 */
 
 /* LINKEDIN */
-.bu-linkedin[b-ois3x2fd0s] {
+.bu-linkedin[b-250ve3k30z] {
     background: transparent;
     position: relative;
     padding: 5px 15px;
@@ -108,11 +109,11 @@ github button : Mangesh636 (https://uiverse.io/profile/Mangesh636)
     text-align: center;
 }
 
-.bu-linkedin span[b-ois3x2fd0s] {
+.bu-linkedin span[b-250ve3k30z] {
     margin: 10px;
 }
 
-.bu-linkedin[b-ois3x2fd0s]::before {
+.bu-linkedin[b-250ve3k30z]::before {
     position: absolute;
     top: 0;
     left: 0;
@@ -130,17 +131,17 @@ github button : Mangesh636 (https://uiverse.io/profile/Mangesh636)
     z-index: -1;
 }
 
-.bu-linkedin:hover[b-ois3x2fd0s] {
+.bu-linkedin:hover[b-250ve3k30z] {
     color: #fff;
     border: 1px solid rgb(0, 119, 181);
 }
 
-.bu-linkedin:hover[b-ois3x2fd0s]::before {
+.bu-linkedin:hover[b-250ve3k30z]::before {
     box-shadow: inset 0 0 0 10em rgb(0, 119, 181);
 }
 
 /* GITHUB */
-.bu-github[b-ois3x2fd0s] {
+.bu-github[b-250ve3k30z] {
     background: transparent;
     position: relative;
     padding: 5px 15px;
@@ -159,11 +160,11 @@ github button : Mangesh636 (https://uiverse.io/profile/Mangesh636)
     text-align: center;
 }
   
-.bu-github span[b-ois3x2fd0s] {
+.bu-github span[b-250ve3k30z] {
     margin: 10px;
 }
   
-.bu-github[b-ois3x2fd0s]::before {
+.bu-github[b-250ve3k30z]::before {
     position: absolute;
     top: 0;
     left: 0;
@@ -181,12 +182,15 @@ github button : Mangesh636 (https://uiverse.io/profile/Mangesh636)
     z-index: -1;
 }
   
-.bu-github:hover[b-ois3x2fd0s] {
+.bu-github:hover[b-250ve3k30z] {
     color: #fff;
     border: 1px solid rgb(36, 41, 46);
 }
   
-.bu-github:hover[b-ois3x2fd0s]::before {
+.bu-github:hover[b-250ve3k30z]::before {
     box-shadow: inset 0 0 0 10em rgb(36, 41, 46);
 }
   
+/* /Pages/Projects/Projects.razor.rz.scp.css */
+/* /Pages/Studies/Studies.razor.rz.scp.css */
+/* /Pages/Works/Works.razor.rz.scp.css */
