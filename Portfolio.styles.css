@@ -15,6 +15,15 @@ footer[b-w092t05iis] {
     width: 100%; */
     padding-bottom: 0.5em;
 }
+
+footer > a[b-w092t05iis] {
+    color: #41bc58;
+    text-decoration: none;
+}
+
+footer > a:hover[b-w092t05iis] {
+    text-decoration: underline;
+}
 /* /Components/Header.razor.rz.scp.css */
 .top[b-flixbfxj4t] {
     /* display: flex;
@@ -54,6 +63,23 @@ nav ul li[b-flixbfxj4t] {
 
 nav ul li[b-flixbfxj4t] {
     margin: 0 1em;
+}
+
+nav ul li a[b-flixbfxj4t] {
+    text-decoration: none;
+    color: black;
+    font-size: 1.2em;
+    font-family: header;
+}
+
+.active a[b-flixbfxj4t] {
+    color: #41bc58;
+    text-decoration: underline;
+}
+
+nav ul li a:hover[b-flixbfxj4t] {
+    color: #41bc58;
+    text-decoration: underline;
 }
 /* /Pages/Contact/Contact.razor.rz.scp.css */
 .contact[b-3ufeq4svxu] {
