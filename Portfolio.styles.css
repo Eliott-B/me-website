@@ -9,11 +9,9 @@ footer[b-w092t05iis], footer > p[b-w092t05iis], footer > a[b-w092t05iis] {
 
 footer[b-w092t05iis] {
     margin-top: 2em;
-    /* position: fixed;
-    bottom: 0;
-    left: 0;
-    width: 100%; */
     padding-bottom: 0.5em;
+    border-top: #828282 1.5px solid;
+    padding-top: 0.5em;
 }
 
 footer > a[b-w092t05iis] {
@@ -26,9 +24,7 @@ footer > a:hover[b-w092t05iis] {
 }
 /* /Components/Header.razor.rz.scp.css */
 .top[b-flixbfxj4t] {
-    /* display: flex;
-    flex-direction: column;
-    justify-content: center; */
+    border-bottom: #828282 1.5px solid;
 }
 
 header[b-flixbfxj4t] {
@@ -226,4 +222,96 @@ github button : Mangesh636 (https://uiverse.io/profile/Mangesh636)
   
 /* /Pages/Projects/Projects.razor.rz.scp.css */
 /* /Pages/Studies/Studies.razor.rz.scp.css */
+.studies[b-qwlufrxg96] {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5em;
+    padding-top: 2em;
+}
+
+.school[b-qwlufrxg96] {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 2em;
+    padding: 1.75em;
+    border: 1px solid #828282;
+    border-radius: 2em;
+}
+
+.school > .photo > img[b-qwlufrxg96] {
+    /* width: 8em; */
+    height: 8em;
+}
+
+.school > .content[b-qwlufrxg96] {
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+}
+
+.school > .content > h3[b-qwlufrxg96] {
+    padding: 0.25em;
+    margin: 0.25em;
+}
+.school > .content > h4[b-qwlufrxg96] {
+    padding: 0.25em;
+    margin: 0.25em;
+}
+.school > .content > h5[b-qwlufrxg96] {
+    padding: 0.25em;
+    margin: 0.25em;
+}
+.school > .content > p[b-qwlufrxg96] {
+    padding: 0.25em;
+    margin: 0.25em;
+}
 /* /Pages/Works/Works.razor.rz.scp.css */
+.works[b-a97zqfimfh] {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5em;
+    padding-top: 2em;
+}
+
+.exp[b-a97zqfimfh] {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 2em;
+    padding: 1.75em;
+    border: 1px solid #828282;
+    border-radius: 2em;
+}
+
+.exp > .photo > img[b-a97zqfimfh] {
+    /* width: 8em; */
+    height: 4em;
+}
+
+.exp > .content[b-a97zqfimfh] {
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+}
+
+.exp > .content > h3[b-a97zqfimfh] {
+    padding: 0.25em;
+    margin: 0.25em;
+}
+.exp > .content > h4[b-a97zqfimfh] {
+    padding: 0.25em;
+    margin: 0.25em;
+}
+.exp > .content > h5[b-a97zqfimfh] {
+    padding: 0.25em;
+    margin: 0.25em;
+}
+.exp > .content > p[b-a97zqfimfh] {
+    padding: 0.25em;
+    margin: 0.25em;
+}
