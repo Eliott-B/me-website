@@ -37,3 +37,20 @@ nav ul li {
 nav ul li {
     margin: 0 1em;
 }
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.2em;
+    font-family: header;
+}
+
+.active a {
+    color: #41bc58;
+    text-decoration: underline;
+}
+
+nav ul li a:hover {
+    color: #41bc58;
+    text-decoration: underline;
+}
