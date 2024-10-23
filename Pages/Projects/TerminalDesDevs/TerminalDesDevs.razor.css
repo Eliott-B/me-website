@@ -1,0 +1,16 @@
+.project {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+    padding-top: 2em;
+}
+
+.project > h2 {
+    font-size: 1.75em;
+    font-family: header;
+    font-weight: bold;
+    margin: 0.5em;
+    color: #41bc58;
+}
