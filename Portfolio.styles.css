@@ -221,6 +221,80 @@ github button : Mangesh636 (https://uiverse.io/profile/Mangesh636)
 }
   
 /* /Pages/Projects/Projects.razor.rz.scp.css */
+.projects[b-23ep1rs3xe] {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5em;
+    padding-top: 2em;
+}
+
+.project[b-23ep1rs3xe] {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 2em;
+    padding: 1.75em;
+    border: 1px solid #828282;
+    border-radius: 2em;
+}
+
+.project > .photo > img[b-23ep1rs3xe] {
+    /* width: 8em; */
+    height: 9em;
+}
+
+.project > .content[b-23ep1rs3xe] {
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+}
+
+.project > .content > h3[b-23ep1rs3xe] {
+    padding: 0.25em;
+    margin: 0.25em;
+}
+.project > .content > h4[b-23ep1rs3xe] {
+    padding: 0.25em;
+    margin: 0.25em;
+}
+.project > .content > h5[b-23ep1rs3xe] {
+    padding: 0.25em;
+    margin: 0.25em;
+}
+.project > .content > p[b-23ep1rs3xe] {
+    padding: 0.25em;
+    margin: 0.25em;
+}
+
+.project a[b-23ep1rs3xe] {
+    text-decoration: none;
+    color: #41bc58;
+    font-size: 1.1em;
+    font-family: header;
+}
+
+.project a:hover[b-23ep1rs3xe] {
+    text-decoration: underline;
+}
+/* /Pages/Projects/TerminalDesDevs/TerminalDesDevs.razor.rz.scp.css */
+.project[b-tbmuha9i6v] {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+    padding-top: 2em;
+}
+
+.project > h2[b-tbmuha9i6v] {
+    font-size: 1.75em;
+    font-family: header;
+    font-weight: bold;
+    margin: 0.5em;
+    color: #41bc58;
+}
 /* /Pages/Studies/Studies.razor.rz.scp.css */
 .studies[b-qwlufrxg96] {
     display: flex;
