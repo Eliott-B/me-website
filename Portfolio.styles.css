@@ -56,6 +56,13 @@ nav ul li[b-flixbfxj4t] {
     margin: 0 1em;
 }
 /* /Pages/Contact/Contact.razor.rz.scp.css */
+.contact[b-3ufeq4svxu] {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
 /* /Pages/Home/Home.razor.rz.scp.css */
 .home[b-250ve3k30z] {
     display: flex;
