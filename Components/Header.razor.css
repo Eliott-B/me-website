@@ -1,7 +1,5 @@
 .top {
-    /* display: flex;
-    flex-direction: column;
-    justify-content: center; */
+    border-bottom: #828282 1.5px solid;
 }
 
 header {

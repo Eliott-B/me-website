@@ -8,11 +8,9 @@ footer, footer > p, footer > a {
 
 footer {
     margin-top: 2em;
-    /* position: fixed;
-    bottom: 0;
-    left: 0;
-    width: 100%; */
     padding-bottom: 0.5em;
+    border-top: #828282 1.5px solid;
+    padding-top: 0.5em;
 }
 
 footer > a {
