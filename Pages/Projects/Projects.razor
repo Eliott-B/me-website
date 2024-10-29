@@ -9,27 +9,15 @@
 <Header CurrentPage=Tabs.Projects />
 
 <div class="projects">
-    <div class="project">
-        @* <div class="photo">
-            <img src="assets/projects/terminal-des-devs/logo_tdd.png" alt="Terminal des devs"/>
-        </div>
-        <div class="content">
-            <h3><a href="/projets/terminal-des-devs">Terminal des devs</a></h3>
-            <h4>Projet personnel</h4>
-            <h5>2021-actuel</h5>
-            <p>
-                Communauté
-            </p>
-        </div> *@
-
-        @if (projects.Count == 0)
+    @if (projects.Count == 0)
+    {
+        <p>Aucun projet trouvé.</p>
+    }
+    else
+    {
+        @foreach (Project project in projects)
         {
-            <p>Aucun projet trouvé.</p>
-        }
-        else
-        {
-            @foreach (Project project in projects)
-            {
+            <div class="project">
                 <div class="photo">
                     <img src=@project.Image alt=@project.Title />
                 </div>
@@ -41,9 +29,9 @@
                         @project.Description
                     </p>
                 </div>
-            }
+            </div>
         }
-    </div>
+    }
 </div>
 
 <Footer />

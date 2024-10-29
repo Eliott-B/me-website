@@ -9,4 +9,49 @@
         <date-start>2021</date-start>
         <date-end>En cours</date-end>
     </project>
+    <project>
+        <name>CodeRed</name>
+        <image>assets/projects/codered/logo_codered.png</image>
+        <description>Plateforme d'énigme pour l'intégration des premières années de l'IUT de Vélizy.</description>
+        <page>/projets/codered</page>
+        <type>Scolaire</type>
+        <date-start>2024</date-start>
+        <date-end>2024</date-end>
+    </project>
+    <project>
+        <name>Xilium</name>
+        <image>assets/projects/xilium/logo_xilium.png</image>
+        <description>Application de ticketing pour les étudiants et les professeurs de l'IUT de Vélizy.</description>
+        <page>/projets/xilium</page>
+        <type>Scolaire</type>
+        <date-start>2023</date-start>
+        <date-end>2024</date-end>
+    </project>
+    <project>
+        <name>24h informatique</name>
+        <image>assets/projects/24hinfo/logo_24hinfo.png</image>
+        <description>Concours des 24h informatique (2 participations).</description>
+        <page>/projets/24hinfo</page>
+        <type>Scolaire</type>
+        <date-start>2023</date-start>
+        <date-end>2024</date-end>
+    </project>
+    <project>
+        <name>Serveur de jeux</name>
+        <image>assets/projects/server/logo_.png</image>
+        <description>Création et développement de serveurs de jeux sur Minecraft, Garry's Mod et FiveM.</description>
+        <page>/projets/serveur-de-jeux</page>
+        <type>Personnel</type>
+        <date-start>2012</date-start>
+        <date-end>2024</date-end>
+    </project>
+    <project>
+        <name>Jeu Diamant</name>
+        <image>assets/projects/diamant/logo_diamant.jpg</image>
+        <description>Développement du jeux de société Diamant en Java avec la création d'une "IA".</description>
+        <page>/projets/serveur-de-jeux</page>
+        <type>Personnel</type>
+        <date-start>2012</date-start>
+        <date-end>2024</date-end>
+    </project>
 </projects>
