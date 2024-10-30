@@ -3,7 +3,6 @@
 @using Portfolio.Components.Footer
 @using Portfolio.Shared
 @using Portfolio.Project
-@using System.Xml
 @inject HttpClient Http
 
 <PageTitle>Eliott Barker - Projets</PageTitle>
@@ -23,7 +22,7 @@
                     <img src=@project.Image alt=@project.Title />
                 </div>
                 <div class="content">
-                    <h3><a href=project.Link>@project.Title</a></h3>
+                    <h3><a href=@project.Link>@project.Title</a></h3>
                     <h4>@Project.ProjectTypeToString(@project.Type)</h4>
                     <h5>@project.StartDate - @project.EndDate</h5>
                     <p>
@@ -42,59 +41,15 @@
 
     protected override async Task OnInitializedAsync()
     {
-        projects = await LoadProjects();
-    }
-        
-    public async Task<List<Project>> LoadProjects()
-    {
-        List<Project> projects = new List<Project>();
-
         string path = "data/AllProjects.xml";
         try
         {
             string xmlContent = await Http.GetStringAsync(path);
-            XmlDocument xmlDoc = new XmlDocument();
-            xmlDoc.LoadXml(xmlContent);
-            XmlNodeList projectsList = xmlDoc.GetElementsByTagName("project");
-            if (projectsList.Count == 0)
-            {
-                throw new FileNotFoundException("Aucun projet trouvé dans le fichier", path);
-            }
-            foreach (XmlNode project in projectsList)
-            {
-                XmlNode? title = project.SelectSingleNode("name");
-                XmlNode? image = project.SelectSingleNode("image");
-                XmlNode? description = project.SelectSingleNode("description");
-                XmlNode? page = project.SelectSingleNode("page");
-                XmlNode? type = project.SelectSingleNode("type");
-                XmlNode? startDate = project.SelectSingleNode("date-start");
-                XmlNode? endDate = project.SelectSingleNode("date-end");
-                if (title == null || image == null || description == null || page == null || type == null || startDate == null || endDate == null)
-                {
-                    throw new XmlException("Erreur de formatage du fichier XML");
-                }
-                projects.Add(new Project
-                {
-                    Title = title.InnerText,
-                    Image = image.InnerText,
-                    Description = description.InnerText,
-                    Link = page.InnerText,
-                    Type = Project.StringToProjectType(type.InnerText),
-                    StartDate = startDate.InnerText,
-                    EndDate = endDate.InnerText
-                });
-            }
-        }
-        catch (XmlException ex)
-        {
-            throw new Exception("Erreur lors du chargement des projets : erreur de formatage du fichier XML", ex);
+            projects = Project.LoadProjects(xmlContent);
         }
         catch (Exception ex)
         {
             throw new Exception("Erreur lors du chargement des projets", ex);
         }
-
-        return projects;
     }
-
 }
