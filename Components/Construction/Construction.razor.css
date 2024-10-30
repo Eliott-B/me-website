@@ -1,0 +1,29 @@
+.construction-wrapper {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.construction {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    color: #333;
+    border: 0.05em solid #ce3636;
+    border-radius: 0.5em;
+    margin: 1rem;
+    width: 15em;
+}
+
+h1 {
+    font-size: 1.5rem;
+    color: #ce3636;
+}
+
+p {
+    font-size: 0.8rem;
+    color: #333;
+}
