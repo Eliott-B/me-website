@@ -6,6 +6,7 @@ namespace Portfolio.Shared
         Projects,
         Studies,
         Experiences,
-        Contact
+        Contact,
+        Unknown
     }
 }

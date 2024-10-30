@@ -49,7 +49,7 @@
         <name>Jeu Diamant</name>
         <image>assets/projects/diamant/logo_diamant.jpg</image>
         <description>Développement du jeux de société Diamant en Java avec la création d'une "IA".</description>
-        <page>/projets/serveur-de-jeux</page>
+        <page>/projets/diamant</page>
         <type>Personnel</type>
         <date-start>2022</date-start>
         <date-end>2023</date-end>
